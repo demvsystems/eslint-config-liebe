@@ -26,11 +26,31 @@
 ### liebe/all
 Includes all the mentioned above
 
-## Usage
+## Installation
 ```sh
 npm i -D eslint-config-liebe@latest
 ```
 or
 ```sh
 yarn add -D eslint-config-liebe@latest
+```
+
+## Usage
+
+Include the configs you need in your .eslintrc:
+```.eslintrc.js
+  extends: [
+    'liebe/base',
+    'liebe/test',
+    'liebe/vue',
+    'liebe/extra',
+  ],
+```
+
+or just
+
+```.eslintrc.js
+  extends: [
+    'liebe/all',
+  ],
 ```
