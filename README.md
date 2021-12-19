@@ -13,8 +13,9 @@
 - eslint-plugin-import
 - eslint-plugin-simple-import-sort
 - eslint-plugin-unicorn
+- eslint-plugin-promise
 
-### liebe/test
+### liebe/testing
 - eslint-plugin-jest
 
 ### liebe/vue
@@ -24,7 +25,7 @@
 - eslint-plugin-you-dont-need-lodash-underscore
 
 ### liebe/all
-Includes all the mentioned above
+- **Includes all the mentioned above**
 
 ## Installation
 ```sh
@@ -41,7 +42,7 @@ Include the configs you need in your .eslintrc:
 ```.eslintrc.js
   extends: [
     'liebe/base',
-    'liebe/test',
+    'liebe/testing',
     'liebe/vue',
     'liebe/extra',
   ],
