@@ -3,5 +3,4 @@ module.exports = {
     'jest',
     'eslint-plugin-jest',
   ],
-  rules: {},
 };
