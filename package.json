@@ -57,7 +57,7 @@
     "semantic-release": "^18.0.1"
   },
   "peerDependencies": {
-    "eslint": "^8.5.0",
+    "eslint": "^7.32.0 || ^8.2.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-config-airbnb-typescript": "^16.1.0",
     "eslint-import-resolver-typescript": "^2.5.0",
