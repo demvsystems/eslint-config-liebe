@@ -55,3 +55,9 @@ or just
     'liebe/all',
   ],
 ```
+
+## Changelog
+Please look at [the releases](https://github.com/Tjark-Kuehl/eslint-config-liebe/releases) for more information on what has changed recently.
+
+## License
+The ISC License (ISC). Please see [License File](LICENSE.md) for more information.
