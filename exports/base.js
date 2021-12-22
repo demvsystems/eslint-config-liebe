@@ -4,7 +4,8 @@ module.exports = {
     '../rules/eslint-comments.js',
     '../rules/simple-import-sort.js',
     // extends
-    // '../rules/import.js',
+    '../rules/promise.js',
+    '../rules/import.js',
     '../rules/base.js',
     '../rules/typescript-eslint.js',
     '../rules/unicorn.js',

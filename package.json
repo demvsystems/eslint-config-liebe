@@ -4,7 +4,7 @@
   "description": "*A config by the 'team liebe' or 'team love' :heartpulse: in english that lets you love your code by lending you a hand with powerful lints.*",
   "main": "index.js",
   "exports": {
-    "./": "./index.js",
+    ".": "./index.js",
     "./all": "./exports/all.js",
     "./base": "./exports/base.js",
     "./testing": "./exports/testing.js",
