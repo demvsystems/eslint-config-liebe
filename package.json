@@ -13,9 +13,9 @@
     "./package.json": "./package.json"
   },
   "license": "ISC",
-  "homepage": "https://github.com/Tjark-Kuehl/eslint-config-liebe#readme",
-  "repository": "github:Tjark-Kuehl/eslint-config-liebe",
-  "bugs": "https://github.com/Tjark-Kuehl/eslint-config-liebe/issues",
+  "homepage": "https://github.com/demvsystems/eslint-config-liebe#readme",
+  "repository": "github:demvsystems/eslint-config-liebe",
+  "bugs": "https://github.com/demvsystems/eslint-config-liebe/issues",
   "author": "Tjark Kühl",
   "contributors": [
     {
