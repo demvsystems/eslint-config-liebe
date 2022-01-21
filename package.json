@@ -41,7 +41,8 @@
   ],
   "scripts": {
     "lint": "eslint --cache .",
-    "lint:fix": "eslint --cache --fix ."
+    "lint:fix": "eslint --cache --fix .",
+    "postinstall": "husky install"
   },
   "engines": {
     "node": ">=16"
@@ -52,7 +53,7 @@
     "@semantic-release/changelog": "6.0.1",
     "@semantic-release/git": "10.0.1",
     "commitlint": "15.0.0",
-    "husky": "7.0.4",
+    "husky": "^7.0.4",
     "lint-staged": "12.2.2",
     "semantic-release": "18.0.1"
   },
@@ -69,5 +70,8 @@
     "eslint-plugin-unicorn": "^39.0.0",
     "eslint-plugin-vue": "^8.2.0",
     "eslint-plugin-you-dont-need-lodash-underscore": "^6.12.0"
+  },
+  "lint-staged": {
+    "*": "eslint --cache --fix ."
   }
 }
