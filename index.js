@@ -8,9 +8,11 @@ module.exports = {
     node: true,
   },
   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: './tsconfig.json',
+    'parser': '@typescript-eslint/parser',
+    'ecmaVersion': 'latest',
+    'sourceType': 'module',
+    'project': 'tsconfig.json',
+    'extraFileExtensions:': ['.json'],
   },
   settings: {
     'import/resolver': {
