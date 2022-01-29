@@ -45,7 +45,7 @@ module.exports = {
       'error',
       {
         ignoreExternal: true,
-        maxDepth: '∞'
+        maxDepth: '∞',
       },
     ],
   },

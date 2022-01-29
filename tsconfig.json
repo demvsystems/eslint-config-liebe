@@ -1,19 +1,17 @@
 {
-    "compilerOptions": {
-      "target": "esnext",
-      "module": "esnext",
-      "strict": true,
-      "moduleResolution": "node",
-      "esModuleInterop": true,
-      "sourceMap": true,
-      "types": [
-        "jest",
-        "node"
-      ],
-      "lib": [
-        "ESNext",
-        "dom",
-      ],
-      "noImplicitAny": false,
-    },
+  "include": ["**/*", "**/.*"],
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "strict": true,
+    "esModuleInterop": true,
+    "types": [
+      "jest",
+      "node"
+    ],
+    "lib": [
+      "ESNext",
+      "dom",
+    ]
+  },
 }
