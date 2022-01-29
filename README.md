@@ -63,7 +63,7 @@ or just
 Please look at [CHANGELOG](CHANGELOG.md) or [Releases](https://github.com/Tjark-Kuehl/eslint-config-liebe/releases) for information on what has changed recently.
 
 ## License
-The ISC License (ISC). Please see [License File](LICENSE) for more information.
+The ISC License (ISC). Please see [LICENSE](LICENSE) for more information.
 
 [package-url]: https://npmjs.org/package/eslint-config-liebe
 [license-image]: https://img.shields.io/npm/l/eslint-config-liebe.svg
