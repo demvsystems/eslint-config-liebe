@@ -1,4 +1,4 @@
-# ESlint config liebe <sup>[![Version Badge][npm-version-svg]][package-url]</sup>
+# ESlint config liebe [![npm version](https://badge.fury.io/js/eslint-config-liebe.svg)][package-url] [![License][license-image]][license-url]
 
 *A config by the 'team liebe' or 'team love' :heartpulse: in english that lets you love your code by lending you a hand with powerful lints.*
 
@@ -57,7 +57,11 @@ or just
 ```
 
 ## Changelog
-Please look at [the releases](https://github.com/Tjark-Kuehl/eslint-config-liebe/releases) for more information on what has changed recently.
+Please look at [CHANGELOG](CHANGELOG.md) or [Releases](https://github.com/Tjark-Kuehl/eslint-config-liebe/releases) for information on what has changed recently.
 
 ## License
-The ISC License (ISC). Please see [License File](LICENSE.md) for more information.
+The ISC License (ISC). Please see [LICENSE](LICENSE) for more information.
+
+[package-url]: https://npmjs.org/package/eslint-config-liebe
+[license-image]: https://img.shields.io/npm/l/eslint-config-liebe.svg
+[license-url]: LICENSE
