@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/demvsystems/eslint-config-liebe/compare/v1.0.0...v1.0.1) (2022-01-29)
+
+
+### Bug Fixes
+
+* remove postinstall command ([3e8cc0d](https://github.com/demvsystems/eslint-config-liebe/commit/3e8cc0de17da70a0e9eaa762a17772e7c841ecc7))
+
 # 1.0.0 (2022-01-29)
 
 
