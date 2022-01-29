@@ -1,15 +1,16 @@
 module.exports = {
   extends: [
     // plugins
-    '../rules/eslint-comments.js',
-    '../rules/simple-import-sort.js',
+    '../rules/eslintComments.js',
+    '../rules/simpleImportSort.js',
     // extends
     '../rules/promise.js',
     '../rules/import.js',
     '../rules/base.js',
-    '../rules/typescript-eslint.js',
+    '../rules/typescriptEslint.js',
     '../rules/unicorn.js',
     '../rules/sonarjs.js',
-  ].map(require.resolve),
+    '../rules/json.js',
+  ].map((extend) => require.resolve(extend)),
   rules: {},
 };

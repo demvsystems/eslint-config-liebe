@@ -18,7 +18,8 @@ module.exports = {
       },
     ],
 
-    // this seems pretty dumb as methods have their unique purpose. getElementById for example is more performant then using querySelector to get the id
+    // this seems pretty dumb as methods have their unique purpose.
+    // getElementById for example is more performant then using querySelector to get the id
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-query-selector.md
     'unicorn/prefer-query-selector': 'off',
 
@@ -95,8 +96,8 @@ module.exports = {
 
           // props is a commonly used word in vue terminology
           properties: {
-            props: false
-          }
+            props: false,
+          },
         },
       },
     ],
