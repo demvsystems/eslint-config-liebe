@@ -42,7 +42,6 @@
   "scripts": {
     "lint": "eslint --cache .",
     "lint:fix": "eslint --cache --fix .",
-    "postinstall": "husky install",
     "prepare": "husky install"
   },
   "engines": {
