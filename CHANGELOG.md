@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/demvsystems/eslint-config-liebe/compare/v1.0.1...v1.0.2) (2022-01-29)
+
+
+### Bug Fixes
+
+* remove vue, lodash rules to be more universal ([1f6f510](https://github.com/demvsystems/eslint-config-liebe/commit/1f6f51007af7d049b13dabf8bd07175386e5bba0))
+
 ## [1.0.1](https://github.com/demvsystems/eslint-config-liebe/compare/v1.0.0...v1.0.1) (2022-01-29)
 
 
