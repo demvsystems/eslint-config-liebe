@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/demvsystems/eslint-config-liebe/compare/v1.0.2...v1.0.3) (2022-01-29)
+
+
+### Bug Fixes
+
+* move packages to peerDependencies ([b9f6711](https://github.com/demvsystems/eslint-config-liebe/commit/b9f6711c574d1bfc06f76eb9fe63ffc900d91af3))
+
 ## [1.0.2](https://github.com/demvsystems/eslint-config-liebe/compare/v1.0.1...v1.0.2) (2022-01-29)
 
 
