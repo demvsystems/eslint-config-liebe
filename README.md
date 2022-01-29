@@ -14,6 +14,7 @@
 - eslint-plugin-simple-import-sort
 - eslint-plugin-unicorn
 - eslint-plugin-promise
+- eslint-plugin-json
 
 ### liebe/testing
 - eslint-plugin-jest
