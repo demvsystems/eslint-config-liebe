@@ -1,7 +1,4 @@
-# ESlint config liebe
-
-[![npm version](https://badge.fury.io/js/eslint-config-liebe.svg)][package-url]
-[![License][license-image]][license-url]
+# ESlint config liebe [![npm version](https://badge.fury.io/js/eslint-config-liebe.svg)][package-url] [![License][license-image]][license-url]
 
 *A config by the 'team liebe' or 'team love' :heartpulse: in english that lets you love your code by lending you a hand with powerful lints.*
 
