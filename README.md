@@ -15,6 +15,7 @@
 - eslint-plugin-unicorn
 - eslint-plugin-promise
 - eslint-plugin-json
+- eslint-plugin-editorconfig
 
 ### liebe/testing
 - eslint-plugin-jest
