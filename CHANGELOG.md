@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/demvsystems/eslint-config-liebe/compare/v1.0.3...v1.1.0) (2022-01-31)
+
+
+### Features
+
+* add editorconfig ([a59071a](https://github.com/demvsystems/eslint-config-liebe/commit/a59071ac09238fb7dfc66db29546e3e50464e515))
+
 ## [1.0.3](https://github.com/demvsystems/eslint-config-liebe/compare/v1.0.2...v1.0.3) (2022-01-29)
 
 
