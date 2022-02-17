@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/demvsystems/eslint-config-liebe/compare/v1.1.0...v1.1.1) (2022-02-17)
+
+
+### Bug Fixes
+
+* **ci:** install peers ([40e05b2](https://github.com/demvsystems/eslint-config-liebe/commit/40e05b2b6506044786c287b9369373bf13bac7e7))
+
 # [1.1.0](https://github.com/demvsystems/eslint-config-liebe/compare/v1.0.3...v1.1.0) (2022-01-31)
 
 
