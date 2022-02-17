@@ -30,7 +30,9 @@ jobs:
           restore-keys: node-modules-
 
       - if: steps.cache-node-modules.outputs.cache-hit != 'true'
-        run: npm ci --ignore-scripts --no-audit --prefer-offline
+        run: |
+          npm ci --ignore-scripts --no-audit --prefer-offline \
+          npx install-peerdeps --dev eslint-config-liebe
 
       - uses: cycjimmy/semantic-release-action@v2
         env:
