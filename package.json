@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-liebe",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "*A config by the 'team liebe' or 'team love' :heartpulse: in english that lets you love your code by lending you a hand with powerful lints.*",
   "main": "index.js",
   "exports": {

@@ -1,3 +1,10 @@
+## [1.1.2](https://github.com/demvsystems/eslint-config-liebe/compare/v1.1.1...v1.1.2) (2022-02-18)
+
+
+### Performance Improvements
+
+* remove eslint-plugin-editorconfig ([7c4ec43](https://github.com/demvsystems/eslint-config-liebe/commit/7c4ec4301f4e7ed7ca9a836953113110c750cbdf))
+
 ## [1.1.1](https://github.com/demvsystems/eslint-config-liebe/compare/v1.1.0...v1.1.1) (2022-02-17)
 
 
