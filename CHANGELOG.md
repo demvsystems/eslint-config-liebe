@@ -1,3 +1,10 @@
+## [1.1.8](https://github.com/demvsystems/eslint-config-liebe/compare/v1.1.7...v1.1.8) (2022-02-18)
+
+
+### Bug Fixes
+
+* updating rules for more accessibility ([21771f1](https://github.com/demvsystems/eslint-config-liebe/commit/21771f19785b04804ec1dd736b320e64e14d27cb))
+
 ## [1.1.7](https://github.com/demvsystems/eslint-config-liebe/compare/v1.1.6...v1.1.7) (2022-02-18)
 
 
