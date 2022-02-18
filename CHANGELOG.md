@@ -1,3 +1,15 @@
+## [1.1.3](https://github.com/demvsystems/eslint-config-liebe/compare/v1.1.2...v1.1.3) (2022-02-18)
+
+
+### Bug Fixes
+
+* add eslint-plugin-import ([fbb7d84](https://github.com/demvsystems/eslint-config-liebe/commit/fbb7d845a611241ea9ad3dfc4b49917586362ea9))
+
+
+### Reverts
+
+* use peerDeps again ([2f6f35a](https://github.com/demvsystems/eslint-config-liebe/commit/2f6f35a492e007c8f584b7e653f934264736a1d8))
+
 ## [1.1.2](https://github.com/demvsystems/eslint-config-liebe/compare/v1.1.1...v1.1.2) (2022-02-18)
 
 
