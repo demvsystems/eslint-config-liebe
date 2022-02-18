@@ -3,7 +3,6 @@ module.exports = {
     // plugins
     '../rules/eslintComments.js',
     '../rules/simpleImportSort.js',
-    '../rules/editorconfig.js',
     // extends
     '../rules/promise.js',
     '../rules/import.js',
