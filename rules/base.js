@@ -64,5 +64,8 @@ module.exports = {
       'error',
       { functions: false, classes: true, variables: true },
     ],
+
+    // https://eslint.org/docs/rules/no-continue
+    'no-continue': 'off',
   },
 };
