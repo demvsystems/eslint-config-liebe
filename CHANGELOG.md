@@ -1,3 +1,10 @@
+## [1.1.4](https://github.com/demvsystems/eslint-config-liebe/compare/v1.1.3...v1.1.4) (2022-02-18)
+
+
+### Bug Fixes
+
+* regenerate package-lock.json ([812157b](https://github.com/demvsystems/eslint-config-liebe/commit/812157b624278c8212af35030713e7f33de51f1e))
+
 ## [1.1.3](https://github.com/demvsystems/eslint-config-liebe/compare/v1.1.2...v1.1.3) (2022-02-18)
 
 
