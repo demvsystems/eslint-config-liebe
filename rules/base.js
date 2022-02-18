@@ -31,7 +31,7 @@ module.exports = {
     // we enabled it for commonly used names in Array.reduce() tho, so we can still write it in a short way
     // https://eslint.org/docs/rules/no-param-reassign
     'no-param-reassign': [
-      'error',
+      'warn',
       {
         props: true,
         ignorePropertyModificationsFor: ['accumulator', 'context', 'props'],
