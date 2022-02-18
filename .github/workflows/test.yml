@@ -41,9 +41,9 @@ jobs:
           restore-keys: node-modules-
 
       - if: steps.cache-node-modules.outputs.cache-hit != 'true'
-        run: |
-          npm ci --ignore-scripts --no-audit --prefer-offline \
-          npx install-peerdeps --dev eslint-config-liebe
+        run: npm ci --ignore-scripts --no-audit --prefer-offline
+          
+      - run: npx install-peerdeps --also=dev eslint-config-liebe
 
       - run: npm run lint
 

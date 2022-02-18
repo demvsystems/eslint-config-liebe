@@ -7,16 +7,4 @@ module.exports = {
     jest: true,
     node: true,
   },
-  parserOptions: {
-    parser: '@typescript-eslint/parser',
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: './tsconfig.json',
-    extraFileExtensions: ['.json'],
-  },
-  settings: {
-    'import/resolver': {
-      typescript: {},
-    },
-  },
 };
