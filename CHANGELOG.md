@@ -1,3 +1,10 @@
+## [1.1.5](https://github.com/demvsystems/eslint-config-liebe/compare/v1.1.4...v1.1.5) (2022-02-18)
+
+
+### Bug Fixes
+
+* **unicorn:** ignoring `props` now works correctly ([1b22d20](https://github.com/demvsystems/eslint-config-liebe/commit/1b22d200c151da5105871ba419fec72d2bedf8e6))
+
 ## [1.1.4](https://github.com/demvsystems/eslint-config-liebe/compare/v1.1.3...v1.1.4) (2022-02-18)
 
 
