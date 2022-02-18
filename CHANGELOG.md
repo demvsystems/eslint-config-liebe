@@ -1,3 +1,10 @@
+## [1.1.6](https://github.com/demvsystems/eslint-config-liebe/compare/v1.1.5...v1.1.6) (2022-02-18)
+
+
+### Bug Fixes
+
+* **base:** make no-param-reassign a warning ([4682775](https://github.com/demvsystems/eslint-config-liebe/commit/46827759609b682ed7c9cdd709fb9aa2a2bc2540))
+
 ## [1.1.5](https://github.com/demvsystems/eslint-config-liebe/compare/v1.1.4...v1.1.5) (2022-02-18)
 
 
