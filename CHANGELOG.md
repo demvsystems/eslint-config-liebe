@@ -1,3 +1,10 @@
+## [1.1.7](https://github.com/demvsystems/eslint-config-liebe/compare/v1.1.6...v1.1.7) (2022-02-18)
+
+
+### Bug Fixes
+
+* **sonarjs:** update rules ([8046f92](https://github.com/demvsystems/eslint-config-liebe/commit/8046f92b21669b3656482638755ed22bb9b1d23b))
+
 ## [1.1.6](https://github.com/demvsystems/eslint-config-liebe/compare/v1.1.5...v1.1.6) (2022-02-18)
 
 
