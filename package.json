@@ -76,6 +76,6 @@
     "*": "npm run lint"
   },
   "dependencies": {
-    "eslint-config-liebe": "^1.1.7"
+    "eslint-config-liebe": "^1.1.5"
   }
 }
