@@ -49,6 +49,11 @@ module.exports = {
       },
     ],
 
+    // we dont want to disallow this rule because the code is way cleaner
+    // however we would still advice to avoid this syntax
+    // https://eslint.org/docs/rules/no-restricted-syntax
+    'no-restricted-syntax': 'warn',
+
     // too restrictive, writing ugly code to defend against a very unlikely scenario
     // https://eslint.org/docs/rules/no-prototype-builtins
     'no-prototype-builtins': 'off',

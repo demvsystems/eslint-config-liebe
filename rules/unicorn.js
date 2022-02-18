@@ -66,6 +66,10 @@ module.exports = {
       'only-single-line',
     ],
 
+    // we dont know if this covers every case, so we make it a warning to be safe
+    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-object-from-entries.md
+    'unicorn/prefer-object-from-entries': 'warn',
+
     // more words to ease users into readable variable names.
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prevent-abbreviations.md
     'unicorn/prevent-abbreviations': [
