@@ -95,9 +95,7 @@ module.exports = {
           },
 
           // props is a commonly used word in vue terminology
-          properties: {
-            props: false,
-          },
+          props: false,
         },
       },
     ],
