@@ -1,3 +1,10 @@
+## [1.1.9](https://github.com/demvsystems/eslint-config-liebe/compare/v1.1.8...v1.1.9) (2022-02-18)
+
+
+### Bug Fixes
+
+* disable no-continue ([022d317](https://github.com/demvsystems/eslint-config-liebe/commit/022d31713ff298df2c536b06da5ef4cd1e9b4561))
+
 ## [1.1.8](https://github.com/demvsystems/eslint-config-liebe/compare/v1.1.7...v1.1.8) (2022-02-18)
 
 
