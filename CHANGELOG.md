@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/demvsystems/eslint-config-liebe/compare/v1.2.0...v1.3.0) (2022-02-21)
+
+
+### Features
+
+* add additional common names ([00d0ed9](https://github.com/demvsystems/eslint-config-liebe/commit/00d0ed9427ba1a5166703904cce5de193f1887bf))
+
 # [1.2.0](https://github.com/demvsystems/eslint-config-liebe/compare/v1.1.9...v1.2.0) (2022-02-21)
 
 
