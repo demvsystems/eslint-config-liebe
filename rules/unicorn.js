@@ -70,6 +70,10 @@ module.exports = {
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-object-from-entries.md
     'unicorn/prefer-object-from-entries': 'warn',
 
+    // it doesnt make sense to disallow the usage of the most performant looping method
+    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-for-loop.md
+    'unicorn/no-for-loop': 'off',
+
     // more words to ease users into readable variable names.
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prevent-abbreviations.md
     'unicorn/prevent-abbreviations': [
