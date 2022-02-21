@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/demvsystems/eslint-config-liebe/compare/v1.1.9...v1.2.0) (2022-02-21)
+
+
+### Features
+
+* **unicorn:** disallow no-for-loop rule ([1fd6bea](https://github.com/demvsystems/eslint-config-liebe/commit/1fd6bea34067e0c707dd2d73063c1a8810f13c3f))
+
 ## [1.1.9](https://github.com/demvsystems/eslint-config-liebe/compare/v1.1.8...v1.1.9) (2022-02-18)
 
 
