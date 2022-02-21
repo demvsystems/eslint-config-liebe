@@ -102,8 +102,11 @@ module.exports = {
             apps: true,
           },
 
+          i: false,
+
           // props is a commonly used word in vue terminology
           props: false,
+          prop: false,
         },
       },
     ],

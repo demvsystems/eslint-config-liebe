@@ -34,7 +34,15 @@ module.exports = {
       'warn',
       {
         props: true,
-        ignorePropertyModificationsFor: ['accumulator', 'context', 'props'],
+        ignorePropertyModificationsFor: [
+          'accumulator',
+          'context',
+          'props',
+          'ctx',
+          'acc',
+          'current',
+          'cur',
+        ],
       },
     ],
 
