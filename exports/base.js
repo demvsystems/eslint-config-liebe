@@ -5,8 +5,8 @@ module.exports = {
     '../rules/simpleImportSort.js',
     // extends
     '../rules/promise.js',
-    '../rules/import.js',
     '../rules/base.js',
+    '../rules/import.js',
     '../rules/typescriptEslint.js',
     '../rules/unicorn.js',
     '../rules/sonarjs.js',
