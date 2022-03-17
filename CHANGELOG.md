@@ -1,3 +1,10 @@
+## [1.3.1](https://github.com/demvsystems/eslint-config-liebe/compare/v1.3.0...v1.3.1) (2022-03-17)
+
+
+### Bug Fixes
+
+* **import:** use import rules after base ([bbde1d8](https://github.com/demvsystems/eslint-config-liebe/commit/bbde1d8702f4c95579357c17df868ded4b789e94))
+
 # [1.3.0](https://github.com/demvsystems/eslint-config-liebe/compare/v1.2.0...v1.3.0) (2022-02-21)
 
 
