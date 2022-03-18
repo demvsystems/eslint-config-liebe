@@ -74,6 +74,10 @@ module.exports = {
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-for-loop.md
     'unicorn/no-for-loop': 'off',
 
+    // this rule adds too much noise and conflicts with import rules
+    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-export-from.md
+    'unicorn/prefer-export-from': 'off',
+
     // more words to ease users into readable variable names.
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prevent-abbreviations.md
     'unicorn/prevent-abbreviations': [
