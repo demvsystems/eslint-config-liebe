@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com/demvsystems/eslint-config-liebe/compare/v1.3.3...v1.4.0) (2022-03-18)
+
+
+### Features
+
+* **unicorn:** disable prefer-export-from ([31a15fe](https://github.com/demvsystems/eslint-config-liebe/commit/31a15fe95eb9a36a7d1d5b76cb7102ccd51b7dea))
+
 ## [1.3.3](https://github.com/demvsystems/eslint-config-liebe/compare/v1.3.2...v1.3.3) (2022-03-18)
 
 
