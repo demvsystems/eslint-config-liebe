@@ -1,3 +1,10 @@
+## [1.3.2](https://github.com/demvsystems/eslint-config-liebe/compare/v1.3.1...v1.3.2) (2022-03-18)
+
+
+### Bug Fixes
+
+* **import:** dont expect default export in .vue ([2044e3f](https://github.com/demvsystems/eslint-config-liebe/commit/2044e3fb8ec3dc44f8c76512942ef7e16d4265c6))
+
 ## [1.3.1](https://github.com/demvsystems/eslint-config-liebe/compare/v1.3.0...v1.3.1) (2022-03-17)
 
 
