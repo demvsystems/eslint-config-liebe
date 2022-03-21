@@ -35,7 +35,7 @@ module.exports = {
     'import/no-named-as-default-member': 'off',
 
     // we agree with the opinion of basarat that the discoverability is poor
-    // https://basarat.gitbooks.io/typescript/docs/tips/defaultIsBad.html
+    // https://basarat.gitbook.io/typescript/main-1/defaultisbad
     'import/prefer-default-export': 'off',
     'import/no-default-export': 'error',
 
