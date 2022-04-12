@@ -1,3 +1,11 @@
+## [1.4.1](https://github.com/demvsystems/eslint-config-liebe/compare/v1.4.0...v1.4.1) (2022-04-12)
+
+
+### Bug Fixes
+
+* correctly export different configs ([ef1f67f](https://github.com/demvsystems/eslint-config-liebe/commit/ef1f67f651b7e81ab43fd856c42cefcd8da89b16))
+* simplify config export ([37d9c6e](https://github.com/demvsystems/eslint-config-liebe/commit/37d9c6e3200861abd3ebebce920eaf83785ea1ec))
+
 # [1.4.0](https://github.com/demvsystems/eslint-config-liebe/compare/v1.3.3...v1.4.0) (2022-03-18)
 
 
