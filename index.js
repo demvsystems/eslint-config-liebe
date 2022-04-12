@@ -1,10 +1,24 @@
+const environment = {
+  browser: true,
+  es6: true,
+  commonjs: true,
+  jest: true,
+  node: true,
+};
+
 module.exports = {
-  extends: ['./exports/all.js'],
-  env: {
-    browser: true,
-    es6: true,
-    commonjs: true,
-    jest: true,
-    node: true,
+  all: {
+    extends: './exports/all.js',
+    env: environment,
+  },
+
+  base: {
+    extends: './exports/base.js',
+    env: environment,
+  },
+
+  testing: {
+    extends: './exports/testing.js',
+    env: environment,
   },
 };
