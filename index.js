@@ -6,7 +6,7 @@ const environment = {
   node: true,
 };
 
-module.exports.configs = {
+module.exports = {
   all: {
     extends: './exports/all.js',
     env: environment,
