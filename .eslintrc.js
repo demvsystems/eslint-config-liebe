@@ -1,5 +1,7 @@
+const configs = require('.');
+
 module.exports = {
-  extends: './index.js',
+  ...configs.all,
   rules: {
     /**
       * doesnt make sense in this project
