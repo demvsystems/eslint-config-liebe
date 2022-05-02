@@ -1,7 +1,5 @@
-const configs = require('.');
-
 module.exports = {
-  ...configs.all,
+  extends: './index.js',
   rules: {
     /**
       * doesnt make sense in this project
@@ -14,7 +12,7 @@ module.exports = {
     ecmaVersion: 'latest',
     sourceType: 'module',
     project: './tsconfig.json',
-    extraFileExtensions: ['.json'],
+    extraFileExtensions: ['.json', '.js'],
   },
   settings: {
     'import/resolver': {

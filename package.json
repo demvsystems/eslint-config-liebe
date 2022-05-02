@@ -30,6 +30,23 @@
     "es2018",
     "esnext"
   ],
+  "exports": {
+    ".": "./index.js",
+    "./all": "./all.js",
+    "./base": "./base.js",
+    "./testing": "./testing.js",
+    "./rules/base": "./rules/base.js",
+    "./rules/eslintComments": "./rules/eslintComments.js",
+    "./rules/import": "./rules/import.js",
+    "./rules/jest": "./rules/jest.js",
+    "./rules/json": "./rules/json.js",
+    "./rules/promise": "./rules/promise.js",
+    "./rules/simpleImportSort": "./rules/simpleImportSort.js",
+    "./rules/sonarjs": "./rules/sonarjs.js",
+    "./rules/typescriptEslint": "./rules/typescriptEslint.js",
+    "./rules/unicorn": "./rules/unicorn.js",
+    "./package.json": "./package.json"
+  },
   "scripts": {
     "lint": "eslint --cache . --ext .json,.js",
     "lint:fix": "eslint --cache --fix . --ext .json,.js",
