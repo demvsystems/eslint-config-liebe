@@ -1,3 +1,15 @@
+# [2.0.0](https://github.com/demvsystems/eslint-config-liebe/compare/v1.4.3...v2.0.0) (2022-05-04)
+
+
+### Bug Fixes
+
+* force eslint v8 ([6d0d90e](https://github.com/demvsystems/eslint-config-liebe/commit/6d0d90e45c932a4a379d69fd3cc3005b64b2c1d3))
+
+
+### BREAKING CHANGES
+
+* Force eslint v8
+
 ## [1.4.3](https://github.com/demvsystems/eslint-config-liebe/compare/v1.4.2...v1.4.3) (2022-05-02)
 
 
