@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-liebe",
-  "version": "1.4.2",
+  "version": "1.4.3",
   "description": "*A config by the 'team liebe' or 'team love' :heartpulse: in english that lets you love your code by lending you a hand with powerful lints.*",
   "main": "index.js",
   "license": "ISC",
@@ -56,31 +56,31 @@
     "node": "^14 || >=16"
   },
   "devDependencies": {
-    "@commitlint/cli": "16.2.3",
-    "@commitlint/config-conventional": "16.2.1",
+    "@commitlint/cli": "16.2.4",
+    "@commitlint/config-conventional": "16.2.4",
     "@semantic-release/changelog": "6.0.1",
     "@semantic-release/git": "10.0.1",
-    "commitlint": "16.2.3",
-    "eslint": "8.13.0",
+    "commitlint": "16.2.4",
+    "eslint": "8.14.0",
     "husky": "7.0.4",
-    "lint-staged": "12.3.7",
+    "lint-staged": "12.4.1",
     "semantic-release": "19.0.2"
   },
   "peerDependencies": {
-    "@typescript-eslint/eslint-plugin": "^5.19.0",
-    "@typescript-eslint/parser": "^5.19.0",
+    "@typescript-eslint/eslint-plugin": "^5.21.0",
+    "@typescript-eslint/parser": "^5.21.0",
     "eslint": "^8.2.0",
     "eslint-config-airbnb-base": "^15.0.0",
-    "eslint-config-airbnb-typescript": "^16.2.0",
+    "eslint-config-airbnb-typescript": "^16.2.0 || ^17.0.0",
     "eslint-import-resolver-typescript": "^2.7.1",
     "eslint-plugin-eslint-comments": "^3.2.0",
     "eslint-plugin-import": "^2.26.0",
-    "eslint-plugin-jest": "^26.1.4",
+    "eslint-plugin-jest": "^26.1.5",
     "eslint-plugin-json": "^3.1.0",
     "eslint-plugin-promise": "^6.0.0",
     "eslint-plugin-simple-import-sort": "^7.0.0",
     "eslint-plugin-sonarjs": "^0.11.0",
-    "eslint-plugin-unicorn": "^40.1.0"
+    "eslint-plugin-unicorn": "^40.1.0 || ^42.0.0"
   },
   "lint-staged": {
     "*": "npm run lint"
