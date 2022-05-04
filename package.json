@@ -69,7 +69,7 @@
   "peerDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.19.0",
     "@typescript-eslint/parser": "^5.19.0",
-    "eslint": "^7.32.0 || ^8.2.0",
+    "eslint": "^8.2.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-config-airbnb-typescript": "^16.2.0",
     "eslint-import-resolver-typescript": "^2.7.1",
@@ -84,8 +84,5 @@
   },
   "lint-staged": {
     "*": "npm run lint"
-  },
-  "dependencies": {
-    "eslint-config-liebe": "^1.4.1"
   }
 }
