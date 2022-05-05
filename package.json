@@ -84,8 +84,5 @@
   },
   "lint-staged": {
     "*": "npm run lint"
-  },
-  "dependencies": {
-    "eslint-config-liebe": "^1.4.3"
   }
 }
