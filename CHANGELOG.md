@@ -1,3 +1,10 @@
+## [2.0.1](https://github.com/demvsystems/eslint-config-liebe/compare/v2.0.0...v2.0.1) (2022-05-21)
+
+
+### Bug Fixes
+
+* adjust peer-dep version numbers ([ff9d230](https://github.com/demvsystems/eslint-config-liebe/commit/ff9d2300c914603d9a5aaafa27c656198b8e6cd6))
+
 # [2.0.0](https://github.com/demvsystems/eslint-config-liebe/compare/v1.4.3...v2.0.0) (2022-05-04)
 
 
