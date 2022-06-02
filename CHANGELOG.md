@@ -1,3 +1,16 @@
+# [2.1.0](https://github.com/demvsystems/eslint-config-liebe/compare/v2.0.1...v2.1.0) (2022-06-02)
+
+
+### Bug Fixes
+
+* **ci:** install pnpm first ([afd521a](https://github.com/demvsystems/eslint-config-liebe/commit/afd521aa3ce02677c336041d47959821cb854d54))
+* **ci:** pnpm install correctly ([5006b3d](https://github.com/demvsystems/eslint-config-liebe/commit/5006b3dd18eeaa279d082b9a9ef163d8bff30fa6))
+
+
+### Features
+
+* use pnpm instead of npm ([54fdda1](https://github.com/demvsystems/eslint-config-liebe/commit/54fdda19bbf55bd6d379a6af344478e2bc26a45d))
+
 ## [2.0.1](https://github.com/demvsystems/eslint-config-liebe/compare/v2.0.0...v2.0.1) (2022-05-21)
 
 
