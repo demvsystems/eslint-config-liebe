@@ -1,3 +1,10 @@
+## [2.1.2](https://github.com/demvsystems/eslint-config-liebe/compare/v2.1.1...v2.1.2) (2022-06-03)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-config-airbnb-typescript to v17 ([5ba17b7](https://github.com/demvsystems/eslint-config-liebe/commit/5ba17b772fe0dc8612a017f327054f436a593e65))
+
 ## [2.1.1](https://github.com/demvsystems/eslint-config-liebe/compare/v2.1.0...v2.1.1) (2022-06-03)
 
 
