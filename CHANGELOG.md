@@ -1,3 +1,11 @@
+## [2.1.1](https://github.com/demvsystems/eslint-config-liebe/compare/v2.1.0...v2.1.1) (2022-06-03)
+
+
+### Bug Fixes
+
+* **ci:** frozen lockfile ([2152890](https://github.com/demvsystems/eslint-config-liebe/commit/2152890a5b1e7df565cb04cd69ef270a1c3070d5))
+* **ci:** install dev-deps on publish ([18c2000](https://github.com/demvsystems/eslint-config-liebe/commit/18c200017d9a87003d282a5c639890faaf804b16))
+
 # [2.1.0](https://github.com/demvsystems/eslint-config-liebe/compare/v2.0.1...v2.1.0) (2022-06-02)
 
 
