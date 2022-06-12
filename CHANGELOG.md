@@ -1,3 +1,10 @@
+# [2.2.0](https://github.com/demvsystems/eslint-config-liebe/compare/v2.1.2...v2.2.0) (2022-06-12)
+
+
+### Features
+
+* **bump:** update unicorn ([9991a51](https://github.com/demvsystems/eslint-config-liebe/commit/9991a51e11b8b714ab9c02b34645768561b754c5))
+
 ## [2.1.2](https://github.com/demvsystems/eslint-config-liebe/compare/v2.1.1...v2.1.2) (2022-06-03)
 
 
