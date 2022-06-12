@@ -1,10 +1,6 @@
 module.exports = {
   extends: './index.js',
   rules: {
-    /**
-      * doesnt make sense in this project
-      * because node isnt importing modules
-    * */
     'unicorn/prefer-module': 'off',
   },
   parserOptions: {
