@@ -24,12 +24,13 @@
 - **Includes all the mentioned above**
 
 ## Installation
+In order to work around [a known limitation in ESLint](https://github.com/eslint/eslint/issues/3458), we recommend you to use this package alongside `@rushstack/eslint-patch`, so that you don't have to install too many dependencies:
 ```sh
-npm i -D eslint-config-liebe@latest
+npm i -D eslint-config-liebe@latest @rushstack/eslint-patch
 
 or
 
-yarn add -D eslint-config-liebe@latest
+yarn add -D eslint-config-liebe@latest @rushstack/eslint-patch
 ```
 
 after that you have to install all the peerDependencies of this package by using:
@@ -45,18 +46,26 @@ npm info "eslint-config-liebe@latest" peerDependencies
 
 Include the configs you need in your .eslintrc:
 ```.eslintrc.js
+require("@rushstack/eslint-patch/modern-module-resolution")
+
+module.exports = {
   extends: [
     'liebe/base',
     'liebe/testing',
-  ],
+  ]
+}
 ```
 
 or just
 
 ```.eslintrc.js
+require("@rushstack/eslint-patch/modern-module-resolution")
+
+module.exports = {
   extends: [
     'liebe/all',
-  ],
+  ]
+}
 ```
 
 ## Changelog
