@@ -33,15 +33,6 @@ or
 yarn add -D eslint-config-liebe@latest @rushstack/eslint-patch
 ```
 
-after that you have to install all the peerDependencies of this package by using:
-```sh
-npx install-peerdeps --dev eslint-config-liebe
-
-or list them by using
-
-npm info "eslint-config-liebe@latest" peerDependencies
-```
-
 ## Usage
 
 Include the configs you need in your .eslintrc:
