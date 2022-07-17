@@ -1,8 +1,5 @@
 {
   "name": "eslint-config-liebe",
-  "publishConfig": {
-    "access": "public"
-  },
   "version": "2.2.1",
   "description": "*A config by the 'team liebe' or 'team love' :heartpulse: in english that lets you love your code by lending you a hand with powerful lints.*",
   "license": "ISC",
