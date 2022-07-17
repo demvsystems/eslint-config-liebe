@@ -32,8 +32,7 @@
   "scripts": {
     "prepare": "husky install",
     "test": "turbo run test",
-    "lint": "turbo run lint",
-    "release": "pnpm -r --workspace-concurrency=1 exec -- npx --no-install semantic-release -e semantic-release-monorepo"
+    "lint": "turbo run lint"
   },
   "devDependencies": {
     "@commitlint/cli": "17.0.3",
