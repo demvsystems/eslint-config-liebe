@@ -41,6 +41,5 @@ jobs:
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
 
-      - run: pnpm lint
+      - run: pnpm exec turbo run test lint
 
-      # - run: pnpm test

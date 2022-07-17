@@ -1,5 +1,5 @@
 module.exports = {
-  extends: './index.js',
+  extends: './index',
   rules: {
     'unicorn/prefer-module': 'off',
   },
@@ -8,7 +8,7 @@ module.exports = {
     ecmaVersion: 'latest',
     sourceType: 'module',
     project: './tsconfig.json',
-    extraFileExtensions: ['.json', '.js'],
+    extraFileExtensions: ['.json'],
   },
   settings: {
     'import/resolver': {

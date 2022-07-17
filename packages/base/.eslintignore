@@ -3,3 +3,4 @@ package.json
 renovate.json
 tsconfig.json
 *.md
+.eslintrc.js
