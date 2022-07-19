@@ -33,7 +33,8 @@
     "prepare": "husky install",
     "test": "turbo run test",
     "lint": "turbo run lint",
-    "release": "pnpm -r --workspace-concurrency=1 exec -- npx --no-install semantic-release -e semantic-release-monorepo"
+    "release": "pnpm -r --workspace-concurrency=1 exec -- npx --no-install semantic-release -e semantic-release-monorepo",
+    "release:dry": "pnpm -r --workspace-concurrency=1 exec -- npx --no-install semantic-release -e semantic-release-monorepo --dry-run"
   },
   "devDependencies": {
     "@commitlint/cli": "17.0.3",
