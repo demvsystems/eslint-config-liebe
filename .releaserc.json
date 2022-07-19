@@ -1,9 +1,5 @@
 {
     "extends": "semantic-release-monorepo",
-    "plugins": [
-      "@semantic-release/release-notes-generator",
-      "@semantic-release/changelog"
-    ],
     "branches": [
       "main"
     ]

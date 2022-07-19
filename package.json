@@ -34,12 +34,12 @@
     "test": "turbo run test",
     "lint": "turbo run lint",
     "release": "pnpm -r --workspace-concurrency=1 exec -- npx --no-install semantic-release -e semantic-release-monorepo",
-    "release:dry": "pnpm -r --workspace-concurrency=1 exec -- npx --no-install semantic-release -e semantic-release-monorepo --dry-run"
+    "release:dry": "pnpm -r --workspace-concurrency=1 exec -- npx --no-install semantic-release -e semantic-release-monorepo --dry-run",
+    "release:local": "pnpm -r --workspace-concurrency=1 exec -- npx --no-install semantic-release -e semantic-release-monorepo --no-ci --dry-run -r git@github.com:demvsystems/eslint-config-liebe.git"
   },
   "devDependencies": {
     "@commitlint/cli": "17.0.3",
     "@commitlint/config-conventional": "17.0.3",
-    "@semantic-release/changelog": "^6.0.1",
     "commitlint": "17.0.3",
     "husky": "8.0.1",
     "semantic-release": "^19.0.3",
