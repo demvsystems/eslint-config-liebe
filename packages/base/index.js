@@ -11,7 +11,7 @@ module.exports = {
     './rules/unicorn',
     './rules/sonarjs',
     './rules/json',
-    // testing
+    // TODO: extract testing config
     './rules/jest',
   ],
   rules: {},
