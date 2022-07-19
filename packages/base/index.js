@@ -14,7 +14,6 @@ module.exports = {
     // TODO: extract testing config
     './rules/jest',
   ],
-  rules: {},
   env: {
     browser: true,
     es6: true,
