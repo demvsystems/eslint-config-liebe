@@ -2,6 +2,9 @@
     "name": "tsconfig",
     "version": "0.0.0",
     "private": true,
+    "publishConfig": {
+        "access": "restricted"
+    },
     "main": "index.js",
     "files": [
         "base.json"
