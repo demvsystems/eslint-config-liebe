@@ -1,12 +1,8 @@
 module.exports = {
   extends: [
     'airbnb-base',
-    'airbnb-typescript/base',
   ],
   rules: {
-    // use @typescript-eslint/ident instead
-    // 'indent': 'off',
-
     // forces quotes around nearly everything, but keeps the option of writing numbers as object keys
     // https://eslint.org/docs/rules/quote-props
     'quote-props': ['error', 'consistent-as-needed', { keywords: false, unnecessary: true, numbers: false }],

@@ -1,20 +1,20 @@
 {
-  "include": ["**/*.js"],
+  "$schema": "https://json.schemastore.org/tsconfig",
   "compilerOptions": {
     "baseUrl": ".",
     "allowJs": true,
-		"checkJs": true,
+    "checkJs": true,
     "target": "esnext",
     "module": "esnext",
     "strict": true,
     "esModuleInterop": true,
     "types": [
-      "jest",
       "node"
     ],
     "lib": [
       "ESNext",
-      "dom",
+      "dom"
     ]
   },
+  "exclude": ["node_modules"]
 }

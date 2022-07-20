@@ -1,10 +1,6 @@
 module.exports = {
-  plugins: [
-    'import',
-  ],
   extends: [
     'plugin:import/recommended',
-    'plugin:import/typescript',
   ],
   rules: {
     // disable because its handled by simple-import-sort
@@ -39,10 +35,16 @@ module.exports = {
     'import/prefer-default-export': 'off',
     'import/no-default-export': 'error',
 
+    // we would prefer named exports over namespace exports
+    // TODO: extract into different config due to bad performance
+    // https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/namespace.md
+    'import/namespace': 'off',
+
     // forbid cyclical dependencies between modules
+    // TODO: extract into different config due to bad performance
     // https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-cycle.md
     'import/no-cycle': [
-      'error',
+      'off',
       {
         ignoreExternal: true,
         maxDepth: '∞',
@@ -52,15 +54,6 @@ module.exports = {
   overrides: [
     {
       files: ['*.vue'],
-      rules: {
-        // Reports if a module's default export is unnamed
-        // https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-anonymous-default-export.md
-        'import/no-anonymous-default-export': 'off',
-        'import/no-default-export': 'off',
-      },
-    },
-    {
-      files: ['*.d.ts'],
       rules: {
         // Reports if a module's default export is unnamed
         // https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-anonymous-default-export.md

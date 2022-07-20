@@ -1,7 +1,4 @@
 module.exports = {
-  plugins: [
-    'eslint-plugin-unicorn',
-  ],
   extends: [
     'plugin:unicorn/recommended',
   ],

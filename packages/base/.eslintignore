@@ -1,6 +1,0 @@
-package-lock.json
-package.json
-renovate.json
-tsconfig.json
-*.md
-.eslintrc.js

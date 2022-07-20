@@ -1,6 +1,7 @@
 {
   "name": "eslint-config-liebe",
-  "version": "2.2.1",
+  "version": "0.0.0",
+  "private": true,
   "description": "*A config by the 'team liebe' or 'team love' :heartpulse: in english that lets you love your code by lending you a hand with powerful lints.*",
   "license": "ISC",
   "homepage": "https://github.com/demvsystems/eslint-config-liebe#readme",
@@ -29,10 +30,17 @@
     "es2018",
     "esnext"
   ],
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "bundledDependencies": [
+    "enviroment",
+    "tsconfig"
+  ],
   "scripts": {
     "prepare": "husky install",
-    "test": "turbo run test",
-    "lint": "turbo run lint",
+    "lint": "eslint . --ext .js,.ts,.json --fix",
     "release": "pnpm -r --workspace-concurrency=1 exec -- npx --no-install semantic-release -e semantic-release-monorepo",
     "release:dry": "pnpm -r --workspace-concurrency=1 exec -- npx --no-install semantic-release -e semantic-release-monorepo --dry-run",
     "release:local": "pnpm -r --workspace-concurrency=1 exec -- npx --no-install semantic-release -e semantic-release-monorepo --no-ci --dry-run -r git@github.com:demvsystems/eslint-config-liebe.git"
@@ -41,6 +49,7 @@
     "@commitlint/cli": "17.0.3",
     "@commitlint/config-conventional": "17.0.3",
     "commitlint": "17.0.3",
+    "eslint": "^8",
     "husky": "8.0.1",
     "semantic-release": "^19.0.3",
     "semantic-release-monorepo": "^7.0.5",

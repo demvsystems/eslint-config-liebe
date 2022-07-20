@@ -1,3 +1,5 @@
+const env = require('environment');
+
 module.exports = {
   extends: [
     // plugins
@@ -7,18 +9,11 @@ module.exports = {
     './rules/promise',
     './rules/base',
     './rules/import',
-    './rules/typescriptEslint',
     './rules/unicorn',
     './rules/sonarjs',
     './rules/json',
     // TODO: extract testing cfg
     './rules/jest',
   ],
-  env: {
-    browser: true,
-    es6: true,
-    commonjs: true,
-    jest: true,
-    node: true,
-  },
+  env,
 };

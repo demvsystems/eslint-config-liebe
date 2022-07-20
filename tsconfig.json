@@ -1,20 +1,22 @@
 {
-  "include": ["**/*.js"],
+  // "$schema": "https://json.schemastore.org/tsconfig",
+  // "display": "Default",
   "compilerOptions": {
     "baseUrl": ".",
-    "allowJs": true,
-		"checkJs": true,
-    "target": "esnext",
-    "module": "esnext",
-    "strict": true,
-    "esModuleInterop": true,
-    "types": [
-      "jest",
-      "node"
-    ],
-    "lib": [
-      "ESNext",
-      "dom",
-    ]
+    // "allowJs": true,
+    // "checkJs": true,
+    // "target": "esnext",
+    // "module": "esnext",
+    // "strict": true,
+    // "esModuleInterop": true,
+    // "types": [
+    //   "node"
+    // ],
+    // "lib": [
+    //   "ESNext",
+    //   "dom"
+    // ]
+    "moduleResolution": "node"
   },
+  "exclude": ["node_modules"]
 }

@@ -1,0 +1,51 @@
+{
+  "name": "@eslint-config-liebe/typescript",
+  "publishConfig": {
+    "access": "public"
+  },
+  "description": "*A config by the 'team liebe' or 'team love' :heartpulse: in english that lets you love your code by lending you a hand with powerful lints.*",
+  "main": "index.js",
+  "license": "ISC",
+  "homepage": "https://github.com/demvsystems/eslint-config-liebe#readme",
+  "repository": "github:demvsystems/eslint-config-liebe",
+  "bugs": "https://github.com/demvsystems/eslint-config-liebe/issues",
+  "author": "Tjark Kühl",
+  "contributors": [
+    {
+      "name": "Tjark Kühl",
+      "url": "https://github.com/Tjark-Kuehl"
+    },
+    {
+      "name": "Philipp Loose",
+      "url": "https://github.com/phloose"
+    }
+  ],
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "config",
+    "javascript",
+    "typescript",
+    "es2015",
+    "es2016",
+    "es2017",
+    "es2018",
+    "esnext"
+  ],
+  "exports": {
+    ".": "./index.js",
+    "./package.json": "./package.json"
+  },
+  "engines": {
+    "node": "^14 || >=16"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.13.0",
+    "@typescript-eslint/parser": "^5.0.0",
+    "environment": "workspace:*",
+    "tsconfig": "workspace:*",
+    "eslint-config-airbnb-typescript": "^17.0.0",
+    "eslint-import-resolver-typescript": "^2.7.1",
+    "eslint-plugin-import": "^2.26.0"
+  }
+}
