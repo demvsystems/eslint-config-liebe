@@ -1,7 +1,6 @@
 module.exports = {
   extends: [
-    './apps/base',
-    // './apps/typescript',
+    './packages/base'
   ],
   rules: {
     'unicorn/prefer-module': 'off',

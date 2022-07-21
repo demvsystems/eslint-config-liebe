@@ -1,4 +1,4 @@
-const env = require('environment');
+const environment = require('./enviroment');
 
 module.exports = {
   extends: [
@@ -15,5 +15,5 @@ module.exports = {
     // TODO: extract testing cfg
     './rules/jest',
   ],
-  env,
+  env: environment,
 };

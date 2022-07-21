@@ -1,4 +1,4 @@
-const env = require('environment');
+const environment = require('./enviroment');
 
 module.exports = {
   extends: [
@@ -6,7 +6,7 @@ module.exports = {
     './rules/import',
     './rules/typescriptEslint',
   ],
-  env,
+  env: environment,
   parserOptions: {
     project: 'tsconfig/base.json',
   },
