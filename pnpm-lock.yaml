@@ -7,7 +7,7 @@ importers:
       '@commitlint/cli': 17.0.3
       '@commitlint/config-conventional': 17.0.3
       commitlint: 17.0.3
-      eslint: ^8
+      eslint: 8.20.0
       husky: 8.0.1
       semantic-release: ^19.0.3
       semantic-release-monorepo: ^7.0.5
@@ -29,7 +29,7 @@ importers:
       eslint-plugin-json: ^3.1.0
       eslint-plugin-promise: ^6.0.0
       eslint-plugin-simple-import-sort: ^7.0.0
-      eslint-plugin-sonarjs: ^0.13.0
+      eslint-plugin-sonarjs: ^0.14.0
       eslint-plugin-unicorn: ^42.0.0
     dependencies:
       eslint-config-airbnb-base: 15.0.0_fkfqfehjtk7sk2efaqbgxsuasa
@@ -39,7 +39,7 @@ importers:
       eslint-plugin-json: 3.1.0
       eslint-plugin-promise: 6.0.0
       eslint-plugin-simple-import-sort: 7.0.0
-      eslint-plugin-sonarjs: 0.13.0
+      eslint-plugin-sonarjs: 0.14.0
       eslint-plugin-unicorn: 42.0.0
 
   packages/typescript:
@@ -1523,8 +1523,8 @@ packages:
       eslint: '>=5.0.0'
     dev: false
 
-  /eslint-plugin-sonarjs/0.13.0:
-    resolution: {integrity: sha512-t3m7ta0EspzDxSOZh3cEOJIJVZgN/TlJYaBGnQlK6W/PZNbWep8q4RQskkJkA7/zwNpX0BaoEOSUUrqaADVoqA==}
+  /eslint-plugin-sonarjs/0.14.0:
+    resolution: {integrity: sha512-0X0q3fB8ghppms19cR2oIK2ajoFp7DEy3AVGDqO7WX02r1aWOzkrHa+veatGZw+R7amgBvfcF0qHCG66p9Zoag==}
     engines: {node: '>=12'}
     peerDependencies:
       eslint: ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0
