@@ -32,7 +32,7 @@ jobs:
       - name: Install Node dependencies
         uses: demvsystems/eslint-config-liebe/.github/actions/setup-node@main
 
-      - run: pnpm exec turbo run test lint
+      # - run: pnpm exec turbo run test lint
 
   tryDryRelease:
     if: github.event.pull_request.draft == false
