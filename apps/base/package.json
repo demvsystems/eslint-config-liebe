@@ -33,9 +33,9 @@
     "esnext"
   ],
   "exports": {
-		".": "./index.js",
-		"./package.json": "./package.json"
-	},
+    ".": "./index.js",
+    "./package.json": "./package.json"
+  },
   "engines": {
     "node": "^14 || >=16"
   },
