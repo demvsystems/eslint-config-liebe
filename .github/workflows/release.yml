@@ -5,6 +5,11 @@ on:
     branches:
       - main
   workflow_dispatch:
+    inputs:
+      forceRelease:
+        description: 'Forces to execute the release action without validating if theres a new version'     
+        required: true
+        default: 'false'
 
 jobs:
   release:
@@ -21,22 +26,22 @@ jobs:
       - name: Install Node dependencies
         uses: demvsystems/eslint-config-liebe/.github/actions/setup-node@main
 
-      - name: Check Version
+      - if: github.event.inputs.forceRelease != true
+        name: Check Version
         id: version
         run: |
           echo ::set-output name=changes::$(pnpm exec changeset version 2>&1 | grep -q 'No unreleased changesets found' && echo 'false' || echo 'true')
 
-      - if: steps.version.outputs.changes == 'true'
+      - if: steps.version.outputs.changes == true && github.event.inputs.forceRelease != true
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: Update version
 
-      - if: steps.version.outputs.changes == 'true'
+      - if: steps.version.outputs.changes == true || github.event.inputs.forceRelease == true
         name: Create Release Pull Request or Publish to npm
         uses: changesets/action@v1
         with:
-          publish: pnpx changeset publish
+          publish: pnpm release
         env:
           GITHUB_TOKEN: ${{ secrets.PRIVATE_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
-          UPDATE_TEMPLATE_SSH_KEY: ${{ secrets.UPDATE_TEMPLATE_SSH_KEY }}

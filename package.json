@@ -31,7 +31,8 @@
   ],
   "scripts": {
     "prepare": "husky install",
-    "lint": "eslint . --ext .js,.ts,.json --fix"
+    "lint": "eslint . --ext .js,.ts,.json --fix",
+    "release": "changeset publish"
   },
   "devDependencies": {
     "@changesets/changelog-github": "^0.4.5",
