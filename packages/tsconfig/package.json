@@ -10,6 +10,6 @@
         "base.json"
     ],
     "dependencies": {
-        "@types/node": "^18.0.6"
+        "@types/node": "18.0.6"
     }
 }
