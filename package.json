@@ -34,6 +34,7 @@
     "lint": "eslint . --ext .js,.ts,.json --fix"
   },
   "devDependencies": {
+    "@changesets/changelog-github": "^0.4.5",
     "@commitlint/cli": "17.0.3",
     "@commitlint/config-conventional": "17.0.3",
     "commitlint": "17.0.3",

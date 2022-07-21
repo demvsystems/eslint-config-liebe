@@ -7,43 +7,6 @@ on:
   workflow_dispatch:
 
 jobs:
-  version:
-    runs-on: ubuntu-latest
-    outputs:
-      changes: ${{ steps.version.outputs.changes }}
-    steps:
-      - uses: styfle/cancel-workflow-action@0.10.0
-        with:
-          all_but_latest: true
-          access_token: ${{ secrets.GITHUB_TOKEN }}
-
-      - uses: actions/checkout@v3
-
-      - name: Install Node dependencies
-        uses: demvsystems/eslint-config-liebe/.github/actions/setup-node@main
-
-      # This step will run changeset version, setting the step output to if there were changesets found
-      - name: Check Version
-        id: version
-        run: |
-          echo ::set-output name=changes::$(pnpm exec changeset version 2>&1 | grep -q 'No unreleased changesets found' && echo 'false' || echo 'true')
-
-      # Push the updated package.json, and CHANGESET.md files to github, this will trigger a new build
-      # the || echo 'No changes' is to ignore errors from git when trying to commit and there are no changes
-      - if: steps.version.outputs.changes == 'true'
-        uses: stefanzweifel/git-auto-commit-action@v4
-        with:
-          commit_message: Update version
-
-      # - if: steps.version.outputs.changes == 'true'
-      #   name: Push Version
-      #   run: |
-      #     git config user.email "<email>"
-      #     git config user.name "<name>"
-      #     git add -A
-      #     git commit -m "Version packages" || echo "No changes to commit"
-      #     git push
-
   release:
     runs-on: ubuntu-latest
     needs: version
@@ -59,11 +22,21 @@ jobs:
       - name: Install Node dependencies
         uses: demvsystems/eslint-config-liebe/.github/actions/setup-node@main
 
-      - name: Create Release Pull Request or Publish to npm
+      - name: Check Version
+        id: version
+        run: |
+          echo ::set-output name=changes::$(pnpm exec changeset version 2>&1 | grep -q 'No unreleased changesets found' && echo 'false' || echo 'true')
+
+      - if: steps.version.outputs.changes == 'true'
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: Update version
+
+      - if: steps.version.outputs.changes == 'true'
+        name: Create Release Pull Request or Publish to npm
         uses: changesets/action@v1
         with:
-          # This expects you to have a script called release which does a build for your packages and calls changeset publish
-          publish: pnpm release
+          publish: pnpx changeset publish
         env:
           GITHUB_TOKEN: ${{ secrets.PRIVATE_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
