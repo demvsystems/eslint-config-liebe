@@ -4,6 +4,9 @@ on:
   push:
     branches:
       - main
+    paths:
+      - 'apps/*'
+      - '.changeset/*.md'
   workflow_dispatch:
     inputs:
       forceRelease:
