@@ -33,25 +33,3 @@ jobs:
         uses: demvsystems/eslint-config-liebe/.github/actions/setup-node@main
 
       # - run: pnpm exec turbo run test lint
-
-  tryDryRelease:
-    if: github.event.pull_request.draft == false
-    needs: lintAndTest
-    runs-on: ubuntu-latest
-
-    steps:
-      - uses: styfle/cancel-workflow-action@0.10.0
-        with:
-          all_but_latest: true
-          access_token: ${{ secrets.GITHUB_TOKEN }}
-
-      - uses: actions/checkout@v3
-
-      - name: Install Node dependencies
-        uses: demvsystems/eslint-config-liebe/.github/actions/setup-node@main
-
-      # - run: pnpm run release:dry
-      #   env:
-      #     NPM_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
-      #     GITHUB_TOKEN: ${{ secrets.PRIVATE_TOKEN }}
-
