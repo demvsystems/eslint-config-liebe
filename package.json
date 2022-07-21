@@ -32,18 +32,17 @@
   "scripts": {
     "prepare": "husky install",
     "lint": "eslint . --ext .js,.ts,.json --fix",
-    "release": "changeset publish"
+    "release": "pnpm -r --workspace-concurrency=1 exec -- npx --no-install semantic-release -e semantic-release-monorepo",
+    "release:dry": "pnpm -r --workspace-concurrency=1 exec -- npx --no-install semantic-release -e semantic-release-monorepo --dry-run"
   },
   "devDependencies": {
-    "@changesets/changelog-github": "^0.4.5",
     "@commitlint/cli": "17.0.3",
     "@commitlint/config-conventional": "17.0.3",
     "commitlint": "17.0.3",
     "eslint": "^8",
-    "husky": "8.0.1"
+    "husky": "8.0.1",
+    "semantic-release": "^19.0.3",
+    "semantic-release-monorepo": "^7.0.5"
   },
-  "packageManager": "pnpm@7.5.2",
-  "dependencies": {
-    "@changesets/cli": "^2.23.2"
-  }
+  "packageManager": "pnpm@7.5.2"
 }

@@ -1,6 +1,6 @@
 module.exports = {
   extends: [
-    './packages/base'
+    './packages/base',
   ],
   rules: {
     'unicorn/prefer-module': 'off',
