@@ -50,8 +50,8 @@ jobs:
       - name: Install Node dependencies
         uses: demvsystems/eslint-config-liebe/.github/actions/setup-node@main
 
-      - run: pnpm run release:dry
-        env:
-          NPM_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
-          GITHUB_TOKEN: ${{ secrets.PRIVATE_TOKEN }}
+      # - run: pnpm run release:dry
+      #   env:
+      #     NPM_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
+      #     GITHUB_TOKEN: ${{ secrets.PRIVATE_TOKEN }}
 
