@@ -75,6 +75,10 @@ module.exports = {
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-export-from.md
     'unicorn/prefer-export-from': 'off',
 
+    // this makes code less readable without any additional benefit
+    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-useless-undefined.md
+    'unicorn/no-useless-undefined': 'off',
+
     // more words to ease users into readable variable names.
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prevent-abbreviations.md
     'unicorn/prevent-abbreviations': [
