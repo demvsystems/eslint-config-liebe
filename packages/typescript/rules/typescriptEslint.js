@@ -7,7 +7,6 @@ module.exports = {
     // 'plugin:@typescript-eslint/recommended-requiring-type-checking',
   ],
   rules: {
-    // '@typescript-eslint/no-var-requires': 'off',
     '@typescript-eslint/no-unused-vars': [
       'warn',
       {

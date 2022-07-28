@@ -2,7 +2,7 @@ const environment = require('./enviroment');
 
 module.exports = {
   parserOptions: {
-    project: 'tsconfig/base.json',
+    project: 'tsconfig.json',
   },
   extends: [
     './rules/base',
