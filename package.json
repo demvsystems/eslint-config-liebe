@@ -39,7 +39,7 @@
     "@commitlint/cli": "17.0.3",
     "@commitlint/config-conventional": "17.0.3",
     "commitlint": "17.0.3",
-    "eslint": "8.21.0",
+    "eslint": "8.22.0",
     "husky": "8.0.1",
     "semantic-release": "^19.0.3",
     "semantic-release-monorepo": "^7.0.5"
