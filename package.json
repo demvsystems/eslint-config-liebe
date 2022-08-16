@@ -41,8 +41,8 @@
     "commitlint": "17.0.3",
     "eslint": "8.22.0",
     "husky": "8.0.1",
-    "semantic-release": "^19.0.3",
-    "semantic-release-monorepo": "^7.0.5"
+    "semantic-release": "19.0.3",
+    "semantic-release-monorepo": "7.0.5"
   },
   "packageManager": "pnpm@7.9.0"
 }
