@@ -36,9 +36,9 @@
     "release:dry": "pnpm -r --workspace-concurrency=1 exec -- npx --no-install semantic-release -e semantic-release-monorepo --dry-run"
   },
   "devDependencies": {
-    "@commitlint/cli": "17.1.2",
-    "@commitlint/config-conventional": "17.1.0",
-    "commitlint": "17.1.2",
+    "@commitlint/cli": "17.2.0",
+    "@commitlint/config-conventional": "17.2.0",
+    "commitlint": "17.2.0",
     "eslint": "8.26.0",
     "husky": "8.0.1",
     "semantic-release": "19.0.5",
