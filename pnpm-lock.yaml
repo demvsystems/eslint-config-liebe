@@ -29,7 +29,7 @@ importers:
       eslint-plugin-json: ^3.1.0
       eslint-plugin-promise: ^6.0.0
       eslint-plugin-simple-import-sort: ^7.0.0
-      eslint-plugin-sonarjs: ^0.18.0
+      eslint-plugin-sonarjs: ^0.19.0
       eslint-plugin-unicorn: ^43.0.0
     dependencies:
       eslint-config-airbnb-base: 15.0.0_5rfvta7qn57kxm7ir36ta6fixq
@@ -39,7 +39,7 @@ importers:
       eslint-plugin-json: 3.1.0
       eslint-plugin-promise: 6.1.1
       eslint-plugin-simple-import-sort: 7.0.0
-      eslint-plugin-sonarjs: 0.18.0
+      eslint-plugin-sonarjs: 0.19.0
       eslint-plugin-unicorn: 43.0.2
 
   packages/typescript:
@@ -1665,8 +1665,8 @@ packages:
       eslint: '>=5.0.0'
     dev: false
 
-  /eslint-plugin-sonarjs/0.18.0:
-    resolution: {integrity: sha512-DJ3osLnt6KFdT5e9ZuIDOjT5A6wUGSLeiJJT03lPgpdD+7CVWlYAw9Goe3bt7SmbFO3Xh89NOCZAuB9XA7bAUQ==}
+  /eslint-plugin-sonarjs/0.19.0:
+    resolution: {integrity: sha512-6+s5oNk5TFtVlbRxqZN7FIGmjdPCYQKaTzFPmqieCmsU1kBYDzndTeQav0xtQNwZJWu5awWfTGe8Srq9xFOGnw==}
     engines: {node: '>=14'}
     peerDependencies:
       eslint: ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0
