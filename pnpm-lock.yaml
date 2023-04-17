@@ -6,6 +6,7 @@ importers:
     specifiers:
       '@commitlint/cli': 17.6.1
       '@commitlint/config-conventional': 17.6.1
+      '@semantic-release/release-notes-generator': ^10.0.3
       commitlint: 17.6.1
       eslint: 8.38.0
       husky: 8.0.3
@@ -14,6 +15,7 @@ importers:
     devDependencies:
       '@commitlint/cli': 17.6.1
       '@commitlint/config-conventional': 17.6.1
+      '@semantic-release/release-notes-generator': 10.0.3_semantic-release@19.0.5
       commitlint: 17.6.1
       eslint: 8.38.0
       husky: 8.0.3
