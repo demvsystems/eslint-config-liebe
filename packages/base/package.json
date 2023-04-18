@@ -38,7 +38,7 @@
     "./package.json": "./package.json"
   },
   "engines": {
-    "node": "^14 || >=16"
+    "node": "^16 || >=18"
   },
   "dependencies": {
     "eslint-config-airbnb-base": "^15.0.0",
