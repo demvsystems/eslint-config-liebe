@@ -12,7 +12,6 @@ module.exports = {
     './rules/unicorn',
     './rules/sonarjs',
     './rules/json',
-    './rules/jest',
   ],
   env: environment,
 };
