@@ -2,17 +2,5 @@
   "extends":"semantic-release-monorepo",
   "branches":[
      "main"
-  ],
-  "monorepo":{
-     "plugins":[
-        "@semantic-release/release-notes-generator",
-        [
-           "@semantic-release/changelog",
-           {
-              "changelogFile":"CHANGELOG.md",
-              "changelogTitle":"Changelog"
-           }
-        ]
-     ]
-  }
+  ]
 }
