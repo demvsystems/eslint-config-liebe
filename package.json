@@ -44,5 +44,5 @@
     "semantic-release": "^20",
     "semantic-release-monorepo": "7.0.5"
   },
-  "packageManager": "pnpm@7.32.0"
+  "packageManager": "pnpm@7.32.2"
 }
