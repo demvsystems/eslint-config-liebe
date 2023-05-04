@@ -1,0 +1,41 @@
+{
+  "name": "@eslint-config-liebe/vue",
+  "version": "1.0.0",
+  "publishConfig": {
+    "access": "public"
+  },
+  "description": "A config by @demvsystems team liebe supporting uniform code style in vue files",
+  "main": "index.js",
+  "license": "ISC",
+  "homepage": "https://github.com/demvsystems/eslint-config-liebe#readme",
+  "repository": "github:demvsystems/eslint-config-liebe",
+  "bugs": "https://github.com/demvsystems/eslint-config-liebe/issues",
+  "author": "Jonathan Wischhusen",
+  "contributors": [
+    {
+      "name": "Jonathan Wischhusen",
+      "url": "https://github.com/unre4l"
+    },
+    {
+      "name": "Tjark Kühl",
+      "url": "https://github.com/Tjark-Kuehl"
+    }
+  ],
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "config",
+    "typescript",
+    "vue"
+  ],
+  "exports": {
+    ".": "./index.js",
+    "./package.json": "./package.json"
+  },
+  "engines": {
+    "node": ">= 16"
+  },
+  "dependencies": {
+    "eslint-plugin-vue": "^9.11.0"
+  }
+}
