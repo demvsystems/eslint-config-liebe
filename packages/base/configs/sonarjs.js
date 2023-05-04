@@ -11,7 +11,7 @@ module.exports = {
     },
   ],
   rules: {
-    // we found it to intrusive to instandly rewrite a method
+    // we found it to intrusive to instantly rewrite a method
     // https://github.com/SonarSource/eslint-plugin-sonarjs/blob/master/docs/rules/cognitive-complexity.md
     'sonarjs/cognitive-complexity': ['warn', 20],
 
