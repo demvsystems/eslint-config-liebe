@@ -1,5 +1,5 @@
 {
-  "name": "@eslint-config-liebe/jest",
+  "name": "@eslint-config-liebe/eslint-config-jest",
   "version": "1.0.0",
   "publishConfig": {
     "access": "public"
