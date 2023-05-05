@@ -4,7 +4,7 @@ module.exports = {
   ],
   overrides: [
     {
-      files: ['**.md', '**.json'],
+      files: ['**.md', '**.json', '**.spec.{js,ts}'],
       rules: {
         'sonarjs/no-duplicate-string': 'off',
       },

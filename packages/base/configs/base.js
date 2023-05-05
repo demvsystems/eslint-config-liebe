@@ -61,5 +61,11 @@ module.exports = {
     ],
     // https://eslint.org/docs/rules/no-continue
     'no-continue': 'off',
+    'object-curly-newline': ['error', {
+      ObjectExpression: { minProperties: 10, multiline: true, consistent: true },
+      ObjectPattern: { minProperties: 10, multiline: true, consistent: true },
+      ImportDeclaration: { minProperties: 10, multiline: true, consistent: true },
+      ExportDeclaration: { minProperties: 10, multiline: true, consistent: true },
+    }],
   },
 };

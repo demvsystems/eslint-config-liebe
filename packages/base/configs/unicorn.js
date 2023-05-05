@@ -115,5 +115,8 @@ module.exports = {
         },
       },
     ],
+    'unicorn/prefer-top-level-await': 'off',
+    'unicorn/switch-case-braces': 'off',
+    'unicorn/no-negated-condition': 'off',
   },
 };
