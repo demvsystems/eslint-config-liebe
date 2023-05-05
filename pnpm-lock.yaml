@@ -20,7 +20,7 @@ importers:
         specifier: 8.0.3
         version: 8.0.3
       semantic-release:
-        specifier: ^20
+        specifier: ^20.1.3
         version: 20.1.3
       semantic-release-monorepo:
         specifier: 7.0.5
@@ -82,6 +82,9 @@ importers:
       eslint-plugin-vitest:
         specifier: ^0.2.0
         version: 0.2.0(eslint@8.40.0)(typescript@5.0.4)
+      eslint-plugin-vitest-globals:
+        specifier: ^1.3.1
+        version: 1.3.1
 
   packages/vue:
     dependencies:
@@ -1756,6 +1759,10 @@ packages:
       safe-regex: 2.1.1
       semver: 7.5.0
       strip-indent: 3.0.0
+    dev: false
+
+  /eslint-plugin-vitest-globals@1.3.1:
+    resolution: {integrity: sha512-ELBqLfu/ZAwVHE1uEvj+Z06o4WnaD+5IcwW/OHQ5qVPA7i7mZexnUBj+04BF60rY7pb3ljRgJRsK+rCTmSS/5g==}
     dev: false
 
   /eslint-plugin-vitest@0.2.0(eslint@8.40.0)(typescript@5.0.4):
