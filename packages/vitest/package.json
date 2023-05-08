@@ -41,6 +41,6 @@
     "node": "^16 || >=18"
   },
   "dependencies": {
-    "eslint-plugin-vitest": "^0.1.4"
+    "eslint-plugin-vitest": "^0.2.0"
   }
 }
