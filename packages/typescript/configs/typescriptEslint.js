@@ -1,10 +1,9 @@
 module.exports = {
   extends: [
     'plugin:@typescript-eslint/recommended',
-    'plugin:@typescript-eslint/recommended-requiring-type-checking',
   ],
   parserOptions: {
-    project: 'tsconfig.eslint.json',
+    project: 'tsconfig.json',
   },
   rules: {
     '@typescript-eslint/no-unused-vars': [
