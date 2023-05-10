@@ -38,6 +38,7 @@ module.exports = {
         functions: false, classes: true, variables: true, typedefs: true,
       },
     ],
+    '@typescript-eslint/consistent-type-imports': 'error',
   },
   overrides: [
     {
