@@ -11,7 +11,7 @@ module.exports = {
     'no-plusplus': ['error', { allowForLoopAfterthoughts: true }],
     // increases the max length of a line to 120 which seems more reasonable and ignores urls
     // https://eslint.org/docs/rules/max-len
-    'max-len': ['error', { code: 120, ignoreUrls: true }],
+    'max-len': ['error', { code: 120, ignoreUrls: true, ignorePattern: '^import .*' }],
     // this just seems to be a legacy rule, disable it to force good variable names
     // https://eslint.org/docs/rules/no-underscore-dangle
     'no-underscore-dangle': 'error',
