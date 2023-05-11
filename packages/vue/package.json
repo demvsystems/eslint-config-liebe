@@ -1,50 +1,41 @@
 {
-  "name": "@eslint-config-liebe/eslint-config-jest",
+  "name": "@eslint-config-liebe/eslint-config-vue",
   "version": "1.0.0",
   "publishConfig": {
     "access": "public"
   },
-  "description": "*A config by the 'team liebe' or 'team love' :heartpulse: in english that lets you love your code by lending you a hand with powerful lints.*",
+  "description": "A config by @demvsystems team liebe supporting uniform code style in vue files",
   "main": "index.js",
   "license": "ISC",
   "homepage": "https://github.com/demvsystems/eslint-config-liebe#readme",
   "repository": "github:demvsystems/eslint-config-liebe",
   "bugs": "https://github.com/demvsystems/eslint-config-liebe/issues",
-  "author": "Tjark Kühl",
+  "author": "Jonathan Wischhusen",
   "contributors": [
-    {
-      "name": "Tjark Kühl",
-      "url": "https://github.com/Tjark-Kuehl"
-    },
-    {
-      "name": "Philipp Loose",
-      "url": "https://github.com/phloose"
-    },
     {
       "name": "Jonathan Wischhusen",
       "url": "https://github.com/unre4l"
+    },
+    {
+      "name": "Tjark Kühl",
+      "url": "https://github.com/Tjark-Kuehl"
     }
   ],
   "keywords": [
     "eslint",
     "eslintconfig",
     "config",
-    "javascript",
     "typescript",
-    "es2015",
-    "es2016",
-    "es2017",
-    "es2018",
-    "esnext"
+    "vue"
   ],
   "exports": {
     ".": "./index.js",
     "./package.json": "./package.json"
   },
   "engines": {
-    "node": "^16 || >=18"
+    "node": ">= 16"
   },
   "dependencies": {
-    "eslint-plugin-jest": "^27.2.1"
+    "eslint-plugin-vue": "^9.11.1"
   }
 }

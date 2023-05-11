@@ -1,11 +1,10 @@
 module.exports = {
-  plugins: [
-    '@typescript-eslint',
-  ],
   extends: [
     'plugin:@typescript-eslint/recommended',
-    // 'plugin:@typescript-eslint/recommended-requiring-type-checking',
   ],
+  parserOptions: {
+    project: 'tsconfig.json',
+  },
   rules: {
     '@typescript-eslint/no-unused-vars': [
       'warn',
@@ -15,7 +14,6 @@ module.exports = {
         ignoreRestSiblings: true,
       },
     ],
-
     '@typescript-eslint/ban-ts-comment': [
       'warn',
       {
@@ -23,7 +21,13 @@ module.exports = {
         'minimumDescriptionLength': 5,
       },
     ],
-
+    '@typescript-eslint/naming-convention': [
+      'error',
+      {
+        selector: ['enum', 'enumMember'],
+        format: ['UPPER_CASE'],
+      },
+    ],
     // allow most functions to rely on type inference.
     // if the function is exported, then `@typescript-eslint/explicit-module-boundary-types` will ensure it's typed.
     '@typescript-eslint/explicit-function-return-type': 'off',
@@ -33,6 +37,7 @@ module.exports = {
         functions: false, classes: true, variables: true, typedefs: true,
       },
     ],
+    '@typescript-eslint/consistent-type-imports': 'error',
   },
   overrides: [
     {

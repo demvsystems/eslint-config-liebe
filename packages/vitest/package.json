@@ -1,5 +1,5 @@
 {
-  "name": "@eslint-config-liebe/vitest",
+  "name": "@eslint-config-liebe/eslint-config-vitest",
   "version": "1.0.0",
   "publishConfig": {
     "access": "public"
@@ -19,6 +19,10 @@
     {
       "name": "Philipp Loose",
       "url": "https://github.com/phloose"
+    },
+    {
+      "name": "Jonathan Wischhusen",
+      "url": "https://github.com/unre4l"
     }
   ],
   "keywords": [
@@ -41,6 +45,7 @@
     "node": "^16 || >=18"
   },
   "dependencies": {
-    "eslint-plugin-vitest": "^0.2.0"
+    "eslint-plugin-vitest": "^0.2.2",
+    "eslint-plugin-vitest-globals": "^1.3.1"
   }
 }

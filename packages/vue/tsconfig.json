@@ -14,12 +14,14 @@
     "skipLibCheck": true,
     "sourceMap": true,
     "resolveJsonModule": true,
-    "moduleResolution": "node",
+    "moduleResolution": "bundler",
     "jsx": "preserve",
     "useDefineForClassFields": true,
     "noImplicitAny": false,
     "isolatedModules": true,
-    "baseUrl": "."
+    "baseUrl": ".",
+    "verbatimModuleSyntax": true,
+    "forceConsistentCasingInFileNames": true
   },
   "exclude": [
     "node_modules"
