@@ -11,14 +11,14 @@
   "timezone": "Europe/Berlin",
   "packageRules": [
     {
-      "matchPackagePatterns": [
-        "eslint"
-      ],
-      "groupName": "eslint"
+      "groupName": "eslint",
+      "matchPackageNames": [
+        "/eslint/"
+      ]
     },
     {
       "description": "Automatically merge minor and patch-level updates",
-      "updateTypes": [
+      "matchUpdateTypes": [
         "minor",
         "patch",
         "pin",
@@ -29,8 +29,12 @@
     },
     {
       "description": "Create a PR, whenever there is a new major Renovate version",
-      "matchPaths": ["renovate-update-notification/Dockerfile"],
-      "matchUpdateTypes": ["major"],
+      "matchFileNames": [
+        "renovate-update-notification/Dockerfile"
+      ],
+      "matchUpdateTypes": [
+        "major"
+      ],
       "automerge": false,
       "prCreation": "immediate"
     }
