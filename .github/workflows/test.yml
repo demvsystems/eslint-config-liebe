@@ -23,7 +23,7 @@ jobs:
           all_but_latest: true
           access_token: ${{ secrets.GITHUB_TOKEN }}
 
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd # v5
 
       - name: Install Node dependencies
         uses: demvsystems/eslint-config-liebe/.github/actions/setup-node@main
