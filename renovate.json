@@ -7,7 +7,6 @@
     ":rebaseStalePrs",
     ":disableDependencyDashboard"
   ],
-  "platform": "github",
   "timezone": "Europe/Berlin",
   "packageRules": [
     {
