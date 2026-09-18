@@ -26,7 +26,7 @@ jobs:
       - uses: actions/checkout@f43a0e5ff2bd294095638e18286ca9a3d1956744 # v3
 
       - name: Install Node dependencies
-        uses: demvsystems/eslint-config-liebe/.github/actions/setup-node@main
+        uses: demvsystems/eslint-config-liebe/.github/actions/setup-node@0829b4321d2b14aed6f58e33c47fa9f624dbb01c # main
 
       - run: pnpm release:dry
         env:
